@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "crates/archrypto_core",
+    "crates/archrypt",
+    #"crates/archrypto_vault"
+]
+resolver = "2"
+
+[workspace.dependencies]
+anyhow = "1.0.95"
+
